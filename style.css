@@ -34,9 +34,9 @@ header {
     width: 20%;
     text-align: center;
     font-size: 40px;
-
     position: absolute;
     left: 150px;
+    top: 200px;
     color: white;
 
 
@@ -63,7 +63,7 @@ header {
     width: 60px;
     position: absolute;
     left: 170px;
-    top: 700px;
+    top: 600px;
     border: solid 2px black;
 }
 
