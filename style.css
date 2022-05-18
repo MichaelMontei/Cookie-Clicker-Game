@@ -6,10 +6,28 @@
 
 html{
     height: 100%;
-   background-color: darkolivegreen;
+    background-color: #51613a;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+}
+
+#countdown{
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    left: 270px;
+    top: 100px;
+}
+
+
+#remaining{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left: 480px;
+    top: 100px;
 
 }
 
