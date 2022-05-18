@@ -8,6 +8,11 @@ let powerTwo = 100;
 let powerThree = 1000;
 
 
+
+
+
+
+
 function reset(){
     score = 0;
     document.getElementById("score").innerHTML = score;
@@ -29,6 +34,7 @@ function reset(){
                 score = score - powerOne;
                 powerOneBegin = powerOneBegin +1;
                 powerOne = Math.round(powerOne * 1.15);
+
 
                 document.getElementById(`score`).innerHTML = score;
                 document.getElementById("imageCost").innerHTML = powerOne;
@@ -74,7 +80,7 @@ function reset(){
 
         function updateCookiesPerSecond() {
             score = powerOneBegin + powerTwoBegin *5 + powerThreeBegin * 70;
-            document.getElementById(`score`).innerHTML = score;
+            document.getElementById(`powerPerSecond>`).innerHTML = score;
         }
 
         setInterval(function () {
@@ -84,7 +90,7 @@ function reset(){
             document.getElementById(`score`).innerHTML = score;
 
             document.title = score + "cookies - Cookie Clicker";
-        }, 3000) // 3000 ms = 3 second
+        }, 1000) // 1000 ms = 1 second
     })
 
     document.getElementById(`buy`).addEventListener(`click`, () => {
