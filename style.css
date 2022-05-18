@@ -54,6 +54,32 @@ header {
     border: solid 1px;
 }
 
+#contentAllRight{
+    position: absolute;
+    right: 50px;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 1px;
+    color: white;
+}
+
+#content-right-structure{
+    justify-content: center;
+}
+
+#shopPicOne{
+    width: 200px;
+    height: 200px;
+}
+
+#buttonShop{
+    width: 100px;
+    justify-content: center;
+
+}
+
 
 #dragonball{
     height:300px;
